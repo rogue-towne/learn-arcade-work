@@ -10,7 +10,7 @@ arcade.start_render()
 # Draws a Big Rectangle
 #lrtb = start from left to right then top to bottom
 #left of 0
-arcade.draw_lrtb_rectangle_filled(0, 599, 300, 0, arcade.csscolor.GREEN)
+arcade.draw_lrtb_rectangle_filled(0, 599, 300, 0, arcade.csscolor.LIGHT_GREEN)
 
 #Draws a tree trunk
 #center(x,y),width,height,color
@@ -46,6 +46,7 @@ arcade.draw_polygon_filled(((500, 400),
 
 #draw sun
 arcade.draw_circle_filled(500,550,40, arcade.color.YELLOW)
+#lines
 #starting point(x,x), ending point(x,y), color, line width
 #horizontal
 arcade.draw_line(400, 550, 600, 550, arcade.color.YELLOW, 3)
